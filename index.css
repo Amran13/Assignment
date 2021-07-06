@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+}
+header h1{
+    font-size: 56px;
+    margin-bottom: 35px;
+}
+header p{
+    font-size: 22px;
+    margin-bottom: 50px;
+
+}
+header .left a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px;
+}
+header h1 span{
+    color: orange;
+}
+header .left{
+    margin-top:260px ;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.about_me{
+    background-image: url(images/shapes/7.png);
+    background-repeat:no-repeat;
+    display: flex;
+
+}
+section.about_me .right{
+    padding: 250px 100px;
+}
+section.about_me .left{
+    margin-top: 130px;
+}
+section.about_me .right h1{
+    font-size: 35px;
+    padding-bottom: 25px;
+
+}
+
+section.about_me .right p{
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+section.about_me .right a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px;
+}
+
+
+
+
+
+
+section.my_recipies .upper{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -75px;
+}
+
+section.my_recipies .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-column-gap: 22px;
+    margin:0 5%;
+    
+}
+section.my_recipies .card-wrapper img{
+    width: 300px;
+    padding:0 10px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.shadow{
+    box-shadow: 10px 10px 10px #888888;
+    /* width: 33%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 60px;
+    
+}
+section.my_recipies .card-wrapper h1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    
+
+} 
+section.my_recipies .card-wrapper p{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+section.my_recipies .card-wrapper div{
+    border-radius: 35px;
+}
+section.my_recipies h1 p{
+    padding-left: 15px;
+}
+section.my_recipies .upper h1{
+    margin-bottom: 25px;
+}
+
+
+
+
+.footer{
+    
+    background-color: black
+}
+
+.footer h1 span{
+    color:orangered;
+}
+.footer h1{
+    padding-top: 40px;
+    text-align: center;
+    color: #898989;
+    padding-bottom: 35px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+
