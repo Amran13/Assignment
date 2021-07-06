@@ -13,6 +13,7 @@ header h1{
 header p{
     font-size: 22px;
     margin-bottom: 50px;
+    color: #898989;
 
 }
 header .left a{
@@ -30,22 +31,10 @@ header .left{
     margin-top:260px ;
     margin-left: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
 section.about_me{
     background-image: url(images/shapes/7.png);
     background-repeat:no-repeat;
     display: flex;
-
 }
 section.about_me .right{
     padding: 250px 100px;
@@ -56,12 +45,11 @@ section.about_me .left{
 section.about_me .right h1{
     font-size: 35px;
     padding-bottom: 25px;
-
 }
-
 section.about_me .right p{
     font-size: 22px;
     padding-bottom: 50px;
+    color: #898989;
 }
 section.about_me .right a{
     text-decoration: none;
@@ -71,24 +59,19 @@ section.about_me .right a{
     border-radius: 35px;
     padding: 20px 60px;
 }
-
-
-
-
-
-
 section.my_recipies .upper{
     text-align: center;
     margin-bottom: 50px;
     margin-top: -75px;
 }
-
+section.my_recipies .upper h1{
+    color: #070606;
+}
 section.my_recipies .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr); 
     grid-column-gap: 22px;
-    margin:0 5%;
-    
+    margin:0 5%;  
 }
 section.my_recipies .card-wrapper img{
     width: 300px;
@@ -97,25 +80,22 @@ section.my_recipies .card-wrapper img{
     margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 10px;
-
 }
 .shadow{
     box-shadow: 10px 10px 10px #888888;
     /* width: 33%; */
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 60px;
-    
+    margin-bottom: 60px;    
 }
 section.my_recipies .card-wrapper h1{
     margin-bottom: 25px;
     font-size: 40px;
-    
-
 } 
 section.my_recipies .card-wrapper p{
     margin-bottom: 40px;
     font-size: 22px;
+    color: #898989;
 }
 section.my_recipies .card-wrapper div{
     border-radius: 35px;
@@ -127,9 +107,23 @@ section.my_recipies .upper h1{
     margin-bottom: 25px;
 }
 
+section.last .up{
+    margin-bottom: 100px;
+}
 
-
-
+section.last .up h1{
+    margin-left: 200px;
+    padding: 15px 5px ;
+    text-align: center;
+    display: inline;
+    background-image: linear-gradient(Blue,cyan);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+section.last .up h1 span{
+    margin-bottom: 20px;
+    text-align:center;
+}
 .footer{
     
     background-color: black
@@ -149,11 +143,3 @@ section.my_recipies .upper h1{
     text-align: center;
     padding-bottom: 120px;
 }
-
-
-
-
-
-
-
-
